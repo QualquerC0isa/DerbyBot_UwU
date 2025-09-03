@@ -1,7 +1,7 @@
 import { registerRootComponent } from 'expo';
 
 //arquivo que fala qual codigo vai abrir 
-import App from './Adriane'
+import App from './status'
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
