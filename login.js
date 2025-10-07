@@ -8,7 +8,6 @@ export default function App() {
     const [login, setLogin] = useState('');
     const [senha, setSenha] = useState('');
     const [mostrarSenha, setMostrarSenha] = useState(false);
-    const [descubra, setDescubra] = useState(false);
 
     return (
         <View style={styles.container}>
@@ -60,7 +59,7 @@ export default function App() {
            {/*titulo*/}
            <View>
                 <Text style={styles.titulo}>
-                    HATSUNE MIKU - FAN PAGE
+                    DERBYBOT UwU
                 </Text>
            </View> 
         </View>
@@ -134,3 +133,4 @@ const styles = StyleSheet.create({
         fontSize: 17,
     },
 });
+

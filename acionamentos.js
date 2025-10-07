@@ -36,11 +36,11 @@ export default function App() {
                 {status ? (irStatus()) : (<Text style={{ color: '#003BFF' }}>Status</Text>)}
             </TouchableOpacity>
 
-            <Text style={styles.label}>Sensor/Atuador:</Text>
+            <Text style={styles.label}>Ativar:</Text>
             
         </View>
     );
-    
+
 }
 
 const styles = StyleSheet.create({
